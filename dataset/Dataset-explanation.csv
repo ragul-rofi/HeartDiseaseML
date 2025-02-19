@@ -1,0 +1,32 @@
+﻿ Attribute ,,Codegiven ,Unit ,,,Datatype
+,,,,,,
+age ,,Age,in years,,,Numeric
+sex ,,Sex,"0=female,",,,
+,,,1=male ,,,Binary
+ chestpaintype  ,,chestpaintype,"1=typicalangina,",,,
+,,,"2=atypicalangina,",,,
+,,,"3=non-anginalpain,",,,
+,,,4=asymptomatic ,,,Nominal
+restingbloodpressure ,,restingbps ,inmmHg ,,,Numeric
+ serumcholesterol ,,cholesterol ,inmg/dl ,,,Numeric
+ fastingbloodsugar,,fastingblood,1=sugar>120mg/dL,,,
+,,sugar,0=sugar<120mg/dL ,,,Binary
+ restingelectrocardiogram,,restingecg,"0=normal,",,,
+,,,1=ST-Twaveabnormality(Twaveinversions,,,
+,,,"and/orSTelevation/depressionof>0.05mV),",,,
+,,,2=ProbableorDefiniteLeftVentricular,,,
+,,,hypertrophybyEstes’criteria,,,Nominal
+,,,,,,
+maximumheartrate,,maxheartrate ,71–202 ,,,Numeric
+achieved,,,,,,
+,,,,,,
+ exerciseinducedangina ,,exerciseangina,"0=no,",,,
+,,,1=yes ,,,Binary
+ oldpeak=ST ,,oldpeak ,depression ,,,Numeric
+theslopeofthepeak,,,,,,
+ exerciseSTsegment ,,STslope,1=upward,,,
+,,,"2=flat,",,,
+,,,3=downward ,,,Nominal
+,,,,,,
+ class ,,target,"0=Normal,",,,
+,,,1=HeartDisease ,,,Binary
